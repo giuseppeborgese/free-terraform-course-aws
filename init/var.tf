@@ -1,6 +1,7 @@
 variable "prefix" {
   type = string
   description = "this will be a prefix for all the resources"
+  default = "tf-course"
 }
 
 variable "external_port" {
